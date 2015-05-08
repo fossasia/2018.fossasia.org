@@ -1,5 +1,7 @@
 # knitapps - Applications for Knitting
 
+[![Join the chat at https://gitter.im/fashiontec/knitapps](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fashiontec/knitapps?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 There are different ideas about the development of knitting utilities in your proposals, but the main goal are clear: We need to make it easy for people to knit and to use computers (PC, mobile phones) to create their knits. What do we have already?
 
 ## Knitting Machine Hacks
