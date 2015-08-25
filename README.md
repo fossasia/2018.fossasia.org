@@ -9,7 +9,8 @@ Applications for Knitting
 
 ## 2. How to install Knitapps 
 ### 2.1. How to install the Knitlib server and Knitlib
-(Requirements, Step by Step Installation on Linux, How to use the API, Sample Api Calls and Messages)
+Please refer to https://github.com/fashiontec/knitlib-webserver
+
 ### 2.2. How to install the webapp
 Please refer to https://github.com/fashiontec/knitweb#2-how-to-install-knitapps
 
