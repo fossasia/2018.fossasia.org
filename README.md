@@ -9,7 +9,7 @@ Applications for Knitting
 
 ## 2. How to install Knitapps 
 ### 2.1. How to install the Knitlib server and Knitlib
-https://github.com/fashiontec/knitserver
+Please refer to https://github.com/fashiontec/knitserver
 
 ### 2.2. How to install the webapp
 Please refer to https://github.com/fashiontec/knitweb#2-how-to-install-knitapps
