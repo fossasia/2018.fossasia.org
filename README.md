@@ -22,7 +22,6 @@ Please refer to https://github.com/fashiontec/knitweb#3-knitapps-onlineoffline
 ### 4.2 How to use Knitpat
 
 ## 5 Knitlib
-### 5.1 Ideas and Technical Background of Knitlib
-### 5.2 Add Knitlib to your application
+Please refer to https://github.com/fashiontec/knitlib
 
 ## 6 Credits and Development
