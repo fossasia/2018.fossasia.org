@@ -1,5 +1,5 @@
 # knitapps
-Applications for Knitting
+Applications for Knitting. The new version is at [knitting.fossasia.org](https://knitting.fossasia.org). Please consider adding information there.
 
 ## 1. What is Knitapps, components, supported format
 ### 1.1 Knitlib Server
