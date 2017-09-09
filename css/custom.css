@@ -5,6 +5,21 @@
 
 .schedule a:hover,a:visited,a:active {
   color: white;
+}
+.schedule a:hover {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+.schedule a:active {
+  color: red;
+  text-decoration: underline;
+  border: none;
+}
+
+.schedule a:visited {
+  color: #B82300;
   text-decoration: none;
   border: none;
 }
@@ -84,4 +99,8 @@
 }
 .baddition{
   margin-left:  600px;
+}
+.btn{
+  color: white;
+  text-decoration: none;
 }
