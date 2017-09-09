@@ -9,3 +9,6 @@ env:
   matrix:
     - TEST_DOC=false
     - TEST_DOC=true
+group :test do
+  gem 'rake'
+end
