@@ -3,3 +3,9 @@ rvm:
  - 2.2
  - jruby
  - rbx-2
+env:
+  global:
+    - CI=true
+  matrix:
+    - TEST_DOC=false
+    - TEST_DOC=true
