@@ -3,6 +3,9 @@
   border: none;
 }
 
+.schedule a:hover,a:visited,a:active {
+  color: white;
+}
 .schedule a:hover {
   color: white;
   text-decoration: none;

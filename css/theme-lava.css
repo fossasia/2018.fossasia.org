@@ -524,9 +524,9 @@ nav .container {
   top: 4px;
 }
 .menu li:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
-.menu li:nth-las-child(2) {
+.menu li:nth-last-child(2) {
   margin-right: 12px;
 }
 .menu li a {
