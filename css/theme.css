@@ -1923,12 +1923,6 @@ p.question {
   width: 100%;
   height: 100%;
 }
-.map-h iframe{
-  border: 0px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
 .contact-tweets span a {
   border-bottom: 2px solid #fff;
   padding-bottom: 1px;
