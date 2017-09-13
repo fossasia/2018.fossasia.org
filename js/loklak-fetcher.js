@@ -72,7 +72,7 @@ window.loklakFetcher = (function() {
       }
 
       // Create the URL with all the parameters
-      var url = 'http://loklak.org/api/search.json' +
+      var url = 'https://loklak.org/api/search.json' +
         '?callback=loklakFetcher.handleData' +
         '&q=' + query +
         '&count=' + options.count +
