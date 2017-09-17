@@ -58,7 +58,7 @@ function parser(data) {
 		} else if (words[word].startsWith("#")) {
 			parsed += "<a href='https://twitter.com/hashtag/" + words[word].slice(1) + "' target='_blank'>" + words[word] + "</a> ";
 		} else if (words[word].startsWith("http")) {
-			if (words[word].startsWith("http://loklak")) {
+			if (words[word].startsWith("https://api.loklak")) {
 				parsed += "<a href='" + data.statuses[tweetNum].links[loklakLinkCount] + "' target='_blank'>" + data.statuses[tweetNum].links[loklakLinkCount] + "</a> ";
 				loklakLinkCount += 1;
 			} else {

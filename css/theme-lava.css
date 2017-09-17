@@ -92,7 +92,6 @@ img {
 .footer-container,
 .nav-container,
 nav {
-  max-width: 1600px;
   margin: 0px auto;
 }
 .boxed-layout .main-container,
@@ -1329,6 +1328,7 @@ nav .container {
   width: 50%;
   float: left;
   margin-bottom: 0px;
+  max-width: 300px;
 }
 .speaker-with-bio .speaker-description {
   width: 50%;
