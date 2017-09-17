@@ -552,7 +552,7 @@ nav .container {
   -webkit-transition: all 0.3s;
 }
 .nav-dropdown li:first-child {
-  margin-top: 12px;
+  margin-top: -1px;
 }
 .nav-dropdown li {
   opacity: 0;
