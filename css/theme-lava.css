@@ -558,12 +558,12 @@ nav .container {
   opacity: 0;
   margin-right: 0px;
   float: none;
-  padding-top: 9px;    
-  padding-bottom: 9px;
   -webkit-transition: all 0.3s;
 }
 .nav-dropdown li a {
-  padding-bottom: 0px;
+  width: 100%;
+  padding-top: 9px;    
+  padding-bottom: 9px;
   padding-left: 2px;
   color: #333333;
   -webkit-transition: all 0.2s;
@@ -573,6 +573,7 @@ nav .container {
   color: white;
 }
 .nav-dropdown li:hover {
+    opacity: 1;
     background-color: #E12B00;
 }
 .has-dropdown:hover .nav-dropdown {
@@ -582,8 +583,8 @@ nav .container {
 .has-dropdown:hover .nav-dropdown li {
   opacity: 1;
 }
-.has-dropdown:hover .nav-dropdown li a{
-  padding-left: 24px;
+.has-dropdown:hover .nav-dropdown li a {
+  padding-left: 24px;    
 }
 .has-dropdown a {
   padding-left: 18px;
