@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     (function loadRSS() {
       //due to the no access control origin header policy, an external service must be used to convert XML to JSON so we can fetch the JSON using JSONP; see http://www.raymondcamden.com/2015/12/08/parsing-rss-feeds-in-javascript-options/
-      var yql = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%3D'https%3A%2F%2Fblog.fossasia.org%2Frss.xml'&format=json&callback=yql";
+      var yql = "https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20rss%20where%20url%3D'https%3A%2F%2Fblog.fossasia.org%2Frss.xml'&format=json&callback=";
       $.getJSON(yql, function(data) {
         //get the posts
         var posts = data.query.results.item;
