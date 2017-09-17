@@ -548,10 +548,10 @@ nav .container {
   background: rgba(255, 255, 255, 0.9);
   min-width: 200px;
   overflow: hidden;
-  margin-top: -2px;
+  margin-top: 0px;
 }
 .nav-dropdown li:first-child {
-  margin-top: 12px;
+  margin-top: -4px;
 }
 .nav-dropdown li {
   opacity: 0;
@@ -566,6 +566,14 @@ nav .container {
 }
 .nav-dropdown li a:hover {
   border-color: rgba(0, 0, 0, 0);
+  background: #ff6b48;
+  width: 100%;
+  color: white;
+  opacity: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+
 }
 .has-dropdown:hover .nav-dropdown {
   z-index: 10;
@@ -819,6 +827,7 @@ nav .container {
   .has-dropdown:hover .nav-dropdown {
     display: block;
   }
+
   .has-dropdown:before {
     color: #333333;
   }
