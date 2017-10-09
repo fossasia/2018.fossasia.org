@@ -647,6 +647,16 @@ nav .container {
 .sticky-nav .has-dropdown:before {
   color: #333333;
 }
+.sticky-nav .has-dropdown .nav-dropdown li a:hover
+{
+  border-color: rgba(0,0,0,0);
+  color: white;
+}
+.sticky-nav .has-dropdown .nav-dropdown li:hover
+{
+  opacity: 1;
+  background-color: #E12B00;
+}
 .sidebar-menu-toggle,
 .mobile-menu-toggle {
   position: absolute;
