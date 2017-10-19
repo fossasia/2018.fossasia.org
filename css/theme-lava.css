@@ -580,6 +580,8 @@ nav .container {
 
 .nav-dropdown{
   display: none;
+  min-height:314px;
+
 }
 
 .has-dropdown:hover > ul{
@@ -837,7 +839,8 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-  }
+    min-height: 439px; 
+ }
   .has-dropdown:hover .nav-dropdown {
     display: block;
   }
