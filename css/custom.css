@@ -1,17 +1,17 @@
 .schedule a {
-  color: white;
+  color: red;
   border: none;
 }
 
 .schedule a:hover {
-  color: white;
+  color: red;
   text-decoration: none;
   border: none;
 }
 
 .schedule a:active {
   color: red;
-  text-decoration: underline;
+  text-decoration: underline; 
   border: none;
 }
 
