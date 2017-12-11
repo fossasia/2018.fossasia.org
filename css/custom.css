@@ -82,6 +82,7 @@
 }
 .social-profiles a i{
   transition: all .5s;
+  line-height: 70px;
 }
 .social-profiles a:hover i{
   color: grey;
@@ -115,4 +116,43 @@
 
 #overlay{
   padding: 0
+}
+/*END*/
+
+/* media queries to display social icons in footer properly*/
+@media (max-width: 768px) {
+  .social-profiles li a i {
+    position: absolute;
+  }
+  .social_twitter {
+    top: 0;
+    left: 20%;
+  }
+  .social_facebook {
+    top: 0;
+    left: 40%;
+  }
+  .social_linkedin {
+    top: 0;
+    left: 60%;
+  }
+  .social_youtube {
+    top: 0;
+    left: 80%;
+  }
+  .social_flickr {
+    top: 100%;
+    left: 25%;
+    margin-top: 40px;
+  }
+  .social_instagram {
+    top: 100%;
+    left: 50%;
+    margin-top: 40px;
+  }
+  .fa-github {
+    top: 100%;
+    left: 75%;
+    margin-top: 40px;
+  }
 }
