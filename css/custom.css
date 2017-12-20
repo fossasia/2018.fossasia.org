@@ -156,3 +156,6 @@
     margin-top: 40px;
   }
 }
+.speaker-description.Felipe p {
+  line-height: 1.7;
+}
