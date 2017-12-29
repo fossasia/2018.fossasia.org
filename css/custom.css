@@ -159,3 +159,18 @@
 .speaker-description.Felipe p {
   line-height: 1.7;
 }
+
+.all-speakers img.background-image {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .all-speakers .speaker {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .speaker-column + .speaker-column {
+    margin-top: 36px;
+  }
+}
