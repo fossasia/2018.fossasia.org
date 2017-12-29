@@ -172,6 +172,9 @@
   .speaker-column + .speaker-column {
     margin-top: 36px;
   }
+  .all-speakers .speakers-row + .speakers-row {
+    margin-top: 36px;
+  }
 }
 
 @media (min-width: 768px) {
