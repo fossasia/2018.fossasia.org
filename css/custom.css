@@ -173,3 +173,9 @@
     margin-top: 36px;
   }
 }
+
+@media (min-width: 768px) {
+  .speaker-outer:nth-child(odd) {
+    clear: left;
+  }
+}
