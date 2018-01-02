@@ -1,7 +1,6 @@
 /*!
 // Contents
 // ------------------------------------------------
-
  1. Mixins
  2. Helper classes & resets
  3. Loader
@@ -19,7 +18,6 @@
  15. Contact
  16. Forms
  17. Footers
-
 // --------------------------------------------------*/
 /*!
 // 1. Useful Mixins
@@ -574,6 +572,7 @@ nav .container {
 .nav-dropdown li:hover {
     opacity: 1;
     background-color: #E12B00;
+
 }
 
 
@@ -800,7 +799,7 @@ nav .container {
   margin-bottom: 32px;
   left: 24px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 1202px) {
   nav {
     max-height: 67px;
     overflow: hidden;
@@ -849,8 +848,13 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 439px; 
+    min-height: 439px;
  }
+ .nav-dropdown li:hover {
+     opacity: 1;
+     background-color: #E12B00;
+     padding-bottom: 5px;
+   }
   .has-dropdown:hover .nav-dropdown {
     display: block;
   }
