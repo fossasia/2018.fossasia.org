@@ -7,22 +7,22 @@
   height: 100%;
   top: 0;
   left: 0;
-  
+
 }
 .schedule a {
-  color: red;
+  color: #B82300;
   border: none;
 }
 
 .schedule a:hover {
-  color: red;
+  color: #B82300;
   text-decoration: none;
   border: none;
 }
 
 .schedule a:active {
   color: red;
-  text-decoration: underline; 
+  text-decoration: underline;
   border: none;
 }
 
@@ -155,4 +155,7 @@
     left: 70%;
     margin-top: 40px;
   }
+}
+.speaker-description.Felipe p {
+  line-height: 1.7;
 }
