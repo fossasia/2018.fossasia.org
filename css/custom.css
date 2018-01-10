@@ -153,12 +153,36 @@
   .fa-github {
     top: 100%;
     left: 70%;
-    margin-top: 40px;
   }
 }
 .speaker-description.Felipe p {
   line-height: 1.7;
 }
+
 .background-image {
   width: 100%;
+}
+
+.all-speakers img.background-image {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .all-speakers .speaker {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  .speaker-column + .speaker-column {
+    margin-top: 36px;
+  }
+  .all-speakers .speakers-row + .speakers-row {
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  .speaker-outer:nth-child(odd) {
+    clear: left;
+  }
 }
