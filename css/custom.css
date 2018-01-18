@@ -159,6 +159,10 @@
   line-height: 1.7;
 }
 
+.background-image {
+  width: 100%;
+}
+
 .all-speakers img.background-image {
   width: 100%;
 }
