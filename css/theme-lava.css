@@ -1147,13 +1147,13 @@ nav .container {
 }
 .call-to-action a i {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   color: #fff;
-  margin-right: 12px;
-  font-size: 14px;
-  line-height: 40px;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 35px;
 }
 @media all and (min-width: 768px){
     .call-to-action a i {
