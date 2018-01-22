@@ -1,6 +1,7 @@
 /*!
 // Contents
 // ------------------------------------------------
+
  1. Mixins
  2. Helper classes & resets
  3. Loader
@@ -18,6 +19,7 @@
  15. Contact
  16. Forms
  17. Footers
+
 // --------------------------------------------------*/
 /*!
 // 1. Useful Mixins
@@ -520,11 +522,6 @@ nav .container {
   position: relative;
   top: 4px;
 }
-@media all and (max-width: 1012px) {
-    .menu li {
-        margin-right: 11px;
-    }
-}
 .menu li:last-child {
   margin-right: 0px;
 }
@@ -553,6 +550,14 @@ nav .container {
   margin-top: -2px;
   -webkit-transition: all 0.3s;
 }
+.projects{
+   min-height:525px;
+}
+
+.events{
+   min-height: 450px;
+}
+
 .nav-dropdown li:first-child {
   margin-top: -1px;
 }
@@ -800,7 +805,7 @@ nav .container {
   max-width: 110px;
   position: relative;
   top: 21px !important;
-  margin-bottom: 44px;
+  margin-bottom: 32px;
   left: 24px;
 }
 @media all and (max-width: 768px) {
@@ -852,7 +857,7 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 439px;
+    min-height: 600px; 
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
@@ -864,6 +869,12 @@ nav .container {
 /*!
 // 8. Sliders & Dividers & Headers
 // --------------------------------------------------*/
+.item p.summary img {
+  margin: auto;
+}
+.carousel-inner>.item {
+  padding: 40px 60px !important;
+}
 .hero-slider {
   padding: 0px;
   position: relative;
@@ -926,7 +937,7 @@ nav .container {
 }
 .register-header .logo,
 .hero-slide .logo {
-  max-width: 200px;
+  max-width: 150px;
   display: block;
   margin-bottom: 12px;
 }
@@ -1152,21 +1163,13 @@ nav .container {
 }
 .call-to-action a i {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   color: #fff;
-  margin-right: 5px;
-  font-size: 12px;
-  line-height: 35px;
-}
-@media all and (min-width: 768px){
-    .call-to-action a i {
-      width: 60px !important;
-      height: 60px !important;
-      font-size: 24px !important;
-      line-height: 60px !important;
-    }
+  margin-right: 12px;
+  font-size: 24px;
+  line-height: 60px;
 }
 .call-to-action .social_facebook {
   background-color: #3b5998;
@@ -1174,17 +1177,17 @@ nav .container {
 .call-to-action .social_twitter {
   background-color: #00aced;
 }
-.call-to-action .social_linkedin {
-    background-color: #0077B5;
-}
 .call-to-action .social_googleplus {
-    background-color: #d34836;
+  background-color: #d34836;
 }
-.call-to-action .social_tumblr {
-    background-color: #35465c;
+.call-to-action .social_linkedin {
+  background-color: #0077B5;
 }
 .call-to-action .social_pinterest {
-    background-color: #BD081C;
+  background-color: #BD081C;
+}
+.call-to-action .social_tumblr {
+  background-color: #35465c;
 }
 .call-to-action a:last-of-type i {
   margin-right: 0px;
@@ -2062,7 +2065,7 @@ p.question {
   line-height: 80px;
 }
 .sponsor img {
-  max-width: 200px;
+  max-width: 150px;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -2070,6 +2073,7 @@ p.question {
 }
 .sponsors span {
   display: inline-block;
+  margin-top: 24px;
 }
 .sponsors span a {
   color: #e12b00;
@@ -2367,11 +2371,6 @@ footer.classic .social-profiles {
 .social-profiles li {
   float: left;
   margin-right: 36px;
-}
-@@media all and (max-width: 768px) {
-   .social-profiles li {
-       margin-right: 15px;
-   }
 }
 .social-profiles li:last-child {
   margin-right: 0px;
