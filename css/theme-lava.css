@@ -520,6 +520,11 @@ nav .container {
   position: relative;
   top: 4px;
 }
+@media all and (max-width: 1012px) {
+    .menu li {
+        margin-right: 11px;
+    }
+}
 .menu li:last-child {
   margin-right: 0px;
 }
@@ -847,7 +852,7 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 439px; 
+    min-height: 439px;
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
@@ -1147,13 +1152,21 @@ nav .container {
 }
 .call-to-action a i {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   color: #fff;
-  margin-right: 12px;
-  font-size: 24px;
-  line-height: 60px;
+  margin-right: 5px;
+  font-size: 12px;
+  line-height: 35px;
+}
+@media all and (min-width: 768px){
+    .call-to-action a i {
+      width: 60px !important;
+      height: 60px !important;
+      font-size: 24px !important;
+      line-height: 60px !important;
+    }
 }
 .call-to-action .social_facebook {
   background-color: #3b5998;
@@ -2354,6 +2367,11 @@ footer.classic .social-profiles {
 .social-profiles li {
   float: left;
   margin-right: 36px;
+}
+@@media all and (max-width: 768px) {
+   .social-profiles li {
+       margin-right: 15px;
+   }
 }
 .social-profiles li:last-child {
   margin-right: 0px;
