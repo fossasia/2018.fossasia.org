@@ -1989,7 +1989,7 @@ p.question {
 .contact-tweets .timePosted {
   display: block !important;
 }
-.map-holder:before {
+.zoom-off:before {
   content: '';
   position: absolute;
   top: 0;
