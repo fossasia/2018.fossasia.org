@@ -89,15 +89,11 @@
 }
 .sticky-nav .menu li a:hover {
   border-color: #C3BFBF;
-  border-bottom-width: 2px;
-  margin-bottom: 2px;
 }
 
 .sidebar-content .widget ul li a:hover{
   border-color: #C3BFBF;
-  border-bottom-width: 2px;
   margin-top: 2px;
-  margin-bottom: 2px;
 }
 /*css classes for hiding and showing Donation and regular supporter parts in donate.html*/
 .appear{

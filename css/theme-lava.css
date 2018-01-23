@@ -533,7 +533,7 @@ nav .container {
 .menu li:nth-las-child(2) {
   margin-right: 12px;
 }
-.menu li a {
+.col-md-10 .menu li a {
   color: #fff;
   display: inline-block;
   padding-bottom: 24px;
@@ -542,8 +542,13 @@ nav .container {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
 }
-.menu li a:hover {
+.col-md-10 .menu li a:hover {
   border-bottom: 2px solid #fff;
+}
+.widget .menu li a {
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 24px;
 }
 .nav-dropdown {
   position: absolute;
