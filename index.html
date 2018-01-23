@@ -3106,13 +3106,11 @@
                 });
                 $("#map").mouseleave(function () {              // becuase the mouse up doesn't work...
                 $('#map').addClass('scrolloff');            // set the pointer events to none when mouse leaves the map area
-                                                        // or you can do it on some other event
-        });
+                                                            // or you can do it on some other event
+            });
 
-        });
-        </script>
-
-        <script>         
+            }); 
+                   
             $('.map-holder').click(function()  {
                 $(this).removeClass('zoom-off');
             });
