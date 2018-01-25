@@ -159,9 +159,6 @@
 
 /* media queries to display social icons in footer properly*/
 @media (max-width: 768px) {
-  .social-profiles li a i {
-    position: absolute;
-  }
   .social_twitter {
     top: 0;
     left: 15%;
