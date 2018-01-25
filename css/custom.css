@@ -130,6 +130,11 @@
     font-size: 16px;
     line-height: 24px;
 }
+
+.speaker-bio-tooltip-content a{
+    color: yellow !important;
+    border-color: yellow;
+}
 /*css classes for speaker bio on tooltip*/
 
 /*css classes for hiding and showing Donation and regular supporter parts in donate.html*/
