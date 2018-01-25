@@ -3114,7 +3114,7 @@
 
                         <a href="./FOSSASIA_Summit_2018_Press Release_11-Dec-2017.pdf" class="block-content" target="_self">
                             <div class="col-md-2 col-sm-4 text-center">
-                                <i class="icon pe-7s-like2 icon-large""></i>
+                                <i class="icon pe-7s-like2 icon-large"></i>
                             </div>
 
                            <div class="col-md-4 col-sm-8">
@@ -3185,7 +3185,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="map-holder col-md-6 col-sm-4">
+                <div class="map-holder zoom-off col-md-6 col-sm-4">
                     <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=103.8914528489113%2C1.3187927641225512%2C103.89350205659868%2C1.320457974155969&amp;layer=mapnik&amp;marker=1.3196253692786193%2C103.89247745275497"></iframe>
                 </div>
             </section>
@@ -3263,10 +3263,14 @@
                 });
                 $("#map").mouseleave(function () {              // becuase the mouse up doesn't work...
                 $('#map').addClass('scrolloff');            // set the pointer events to none when mouse leaves the map area
-                                                        // or you can do it on some other event
-        });
+                                                            // or you can do it on some other event
+            });
 
-        });
-      </script>
+            }); 
+                   
+            $('.map-holder').click(function()  {
+                $(this).removeClass('zoom-off');
+            });
+        </script>
     </body>
 </html>
