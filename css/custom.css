@@ -155,7 +155,9 @@
 .all-speakers img.background-image {
   width: 100%;
 }
-
+.speaker-column {
+  min-height: 405px;
+}
 @media (max-width: 767px) {
   .all-speakers .speaker {
     max-width: 300px;
