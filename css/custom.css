@@ -95,6 +95,44 @@
   border-color: #C3BFBF;
   margin-top: 2px;
 }
+
+/*css classes for speaker bio on tooltip*/
+.speaker-bio-tooltip{
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: #b82300;
+    z-index: 1000;
+    overflow: visible !important;
+}
+
+.speaker-bio-tooltip-pin{
+    position: absolute;
+    display: none;
+    z-index: 20;
+    background: url(../img/pin_bg.png) left top no-repeat;
+    width: 26px;
+    height: 13px;
+    left: 50%;
+    margin-left: -13px;
+    margin-top: -13px;
+    top: 100%;
+}
+
+.speaker-bio-tooltip .speaker-bio-tooltip-content {
+    color: #fff;
+    padding: 35px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.speaker-bio-tooltip-content a{
+    color: yellow !important;
+    border-color: yellow;
+}
+/*css classes for speaker bio on tooltip*/
+
 /*css classes for hiding and showing Donation and regular supporter parts in donate.html*/
 .appear{
   display: block;
