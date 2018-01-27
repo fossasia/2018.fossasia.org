@@ -177,3 +177,9 @@
     clear: left;
   }
 }
+#rss-logo {
+  width: 20px;
+}
+.schedule-overview li {
+  padding-right: 38px;
+}
