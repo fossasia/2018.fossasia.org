@@ -620,6 +620,9 @@ nav .container {
 .has-dropdown a {
   padding-left: 18px;
 }
+.has-dropdown li a {
+  color: #333333 !important;
+}
 .has-dropdown:before {
   display: inline-block;
   font-family: 'Pe-icon-7-stroke';
