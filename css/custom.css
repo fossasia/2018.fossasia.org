@@ -170,6 +170,9 @@
   .all-speakers .speakers-row + .speakers-row {
     margin-top: 36px;
   }
+  .speaker-column:first-child {
+    margin-top: 36px;
+  }
 }
 
 @media (min-width: 768px) {
