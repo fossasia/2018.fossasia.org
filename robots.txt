@@ -1,0 +1,4 @@
+User-agent: Googlebot-Image
+Disallow: /img/AlexanderBezzubov.jpg
+Disallow: /images/speakers/e501803a-8b9b-4f53-b140-cadc480a9888.jpg
+Disallow: /images/speakers/thumbnails/e501803a-8b9b-4f53-b140-cadc480a9888.jpg
