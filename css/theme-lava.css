@@ -929,7 +929,7 @@ nav .container {
   }
 }
 
-@media all and (max-width: 409px) {
+@media all and (max-width: 480px) {
   .hero-slider .btn-hollow {
     margin: 5px auto auto auto;
   }
