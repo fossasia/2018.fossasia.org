@@ -837,6 +837,8 @@ nav .container {
     display: block;
     margin-top: 67px;
     margin-right: 0px;
+    max-height: 75vh; 
+    overflow-y: scroll;
   }
   nav .social-link {
     float: left !important;
@@ -857,7 +859,9 @@ nav .container {
   .nav-dropdown {
     position: relative;
     display: none;
-    min-height: 600px; 
+    height: 600px; 
+    margin-top: 5px;
+    padding-bottom: 8px;
  }
   .has-dropdown:hover .nav-dropdown {
     display: block;
@@ -921,9 +925,16 @@ nav .container {
 }
 @media all and (max-width: 767px) {
   .hero-slider .btn-hollow {
-    display: none;
+    display: inline-block;
   }
 }
+
+@media all and (max-width: 480px) {
+  .hero-slider .btn-hollow {
+    margin: 5px auto auto auto;
+  }
+}
+
 .register-header form.register {
   padding-top: 0px;
   background: rgba(0, 0, 0, 0.4);
