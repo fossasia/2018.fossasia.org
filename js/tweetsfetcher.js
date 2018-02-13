@@ -34,6 +34,7 @@ function nextTweet() {
 	if(tweetNum == tweetsEl.dataset.count) {
 		tweetNum = 0;
 	}
+  console.log(tweetsEl.dataset.count);
 	Interval();
 	document.getElementsByClassName('tweets-feed')[0].style.opacity =  0;
 	window.setTimeout(parseFunc, 560);
@@ -107,9 +108,9 @@ window.onload = (function() {
         throw new Error('[LOKLAK-FETCHER] No callback provided');
       }
 
-      var settings = [ 'count', 'source', 'fields', 'limit', 'tzOffset',
+      var settings = [ 'count', 'fields', 'limit', 'tzOffset',
         'minified' ];  // Field names for all the possible parameters
-      var defaults = [ 100, 'cache', '', '', 0, true ];  // Default values
+      var defaults = [ 100, '', '', 0, true ];  // Default values
 
       // Check if no options have been provided
       if(typeof options === 'undefined') {
@@ -155,7 +156,6 @@ window.onload = (function() {
         '?callback=loklakFetcher.handleData' +
         '&q=' + query +
         '&count=' + options.count +
-        '&source=' + options.source +
         '&fields=' + options.fields +
         '&limit=' + options.limit +
         '&timezoneOffset=' + options.tzOffset +
