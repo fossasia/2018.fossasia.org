@@ -177,3 +177,12 @@
     clear: left;
   }
 }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  nav .logo {
+    top: -18px;
+  }
+  .menu li {
+    margin-right: 27px;
+  }
+}
