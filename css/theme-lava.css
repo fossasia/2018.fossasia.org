@@ -911,7 +911,8 @@ nav .container {
 }
 @media all and (max-width: 767px) {
   .hero-slider .btn-hollow {
-    display: none;
+    display : inline-block;
+    
   }
 }
 .register-header form.register {
