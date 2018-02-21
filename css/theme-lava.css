@@ -869,6 +869,9 @@ nav .container {
   .has-dropdown:before {
     color: #333333;
   }
+  .nav-dropdown li {
+    padding-bottom: 9px !important;
+  }
 }
 /*!
 // 8. Sliders & Dividers & Headers
