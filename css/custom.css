@@ -194,6 +194,7 @@
 .all-speakers img.background-image {
   width: 100%;
 }
+
 .speaker-column {
   min-height: 405px;
 }
@@ -203,7 +204,7 @@
     margin: auto;
     text-align: center;
   }
-  .speaker-column + .speaker-column {
+  .speaker-column {
     margin-top: 36px;
   }
   .all-speakers .speakers-row + .speakers-row {
