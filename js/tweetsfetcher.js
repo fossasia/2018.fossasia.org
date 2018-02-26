@@ -34,6 +34,7 @@ function nextTweet() {
 	if(tweetNum == tweetsEl.dataset.count) {
 		tweetNum = 0;
 	}
+  console.log(tweetsEl.dataset.count);
 	Interval();
 	document.getElementsByClassName('tweets-feed')[0].style.opacity =  0;
 	window.setTimeout(parseFunc, 560);
@@ -52,17 +53,18 @@ function parser(data) {
 	var tweet = data.statuses[tweetNum].text;
 	var words = tweet.split(" ");
 	var loklakLinkCount = 0;
+  var actualLink=data.statuses[tweetNum].links;
 	for (word in words) {
 		if (words[word].startsWith("@")) {
 			parsed += "<a href='https://twitter.com/" + words[word].slice(1) + "' target='_blank'>" + words[word] + "</a> ";
 		} else if (words[word].startsWith("#")) {
 			parsed += "<a href='https://twitter.com/hashtag/" + words[word].slice(1) + "' target='_blank'>" + words[word] + "</a> ";
 		} else if (words[word].startsWith("http")) {
-			if (words[word].startsWith("https://loklak")) {
-				parsed += "<a href='" + data.statuses[tweetNum].links[loklakLinkCount] + "' target='_blank'>" + data.statuses[tweetNum].links[loklakLinkCount] + "</a> ";
+			if (words[word].startsWith("http://api")) {
+				parsed += "<a href='" + actualLink + "' target='_blank'>" + actualLink + "</a> ";
 				loklakLinkCount += 1;
 			} else {
-				parsed += "<a href='" + words[word] + "' target='_blank' style='word-break:break-all'>" + words[word] + "</a> ";
+				parsed += "<a href='" + actualLink + "' target='_blank' style='word-break:break-all'>" + actualLink + "</a> ";
 			}
 		} else {
 			parsed += words[word] + " ";
@@ -107,9 +109,9 @@ window.onload = (function() {
         throw new Error('[LOKLAK-FETCHER] No callback provided');
       }
 
-      var settings = [ 'count', 'source', 'fields', 'limit', 'tzOffset',
+      var settings = [ 'count', 'fields', 'limit', 'tzOffset',
         'minified' ];  // Field names for all the possible parameters
-      var defaults = [ 100, 'cache', '', '', 0, true ];  // Default values
+      var defaults = [ 100, '', '', 0, true ];  // Default values
 
       // Check if no options have been provided
       if(typeof options === 'undefined') {
@@ -155,7 +157,6 @@ window.onload = (function() {
         '?callback=loklakFetcher.handleData' +
         '&q=' + query +
         '&count=' + options.count +
-        '&source=' + options.source +
         '&fields=' + options.fields +
         '&limit=' + options.limit +
         '&timezoneOffset=' + options.tzOffset +

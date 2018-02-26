@@ -869,6 +869,9 @@ nav .container {
   .has-dropdown:before {
     color: #333333;
   }
+  .nav-dropdown li {
+    padding-bottom: 9px !important;
+  }
 }
 /*!
 // 8. Sliders & Dividers & Headers
@@ -2072,15 +2075,15 @@ p.question {
 }
 .sponsor {
   margin-bottom: 36px;
-  height: 80px;
+  height: 110px;
   line-height: 80px;
 }
 .sponsor img {
-  max-width: 150px;
+  max-width: 170px;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
-  max-height: 80px;
+  max-height: 100px;
 }
 .sponsors span {
   display: inline-block;
