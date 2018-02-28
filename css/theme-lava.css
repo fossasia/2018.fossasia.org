@@ -24,6 +24,10 @@
 /*!
 // 1. Useful Mixins
 // --------------------------------------------------*/
+.partner-logo {
+  max-width: 33%;
+}
+
 .vertical-align {
   position: relative;
   top: 50%;
