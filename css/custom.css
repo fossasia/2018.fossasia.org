@@ -225,3 +225,14 @@
     margin-right: 27px;
   }
 }
+
+.btn-hollow-red {
+  color: #e12b00 !important;
+  border: 2px solid #e12b00 !important;
+  background: transparent !important;
+}
+
+.btn-hollow-red:hover {
+    color: #fff !important;
+    background: #e12b00 !important;
+}
