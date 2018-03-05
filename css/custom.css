@@ -95,6 +95,10 @@
   border-color: #C3BFBF;
   margin-top: 2px;
 }
+a:focus, a:hover {
+    color: #9fab9e;
+    text-decoration:none;
+}
 /*css classes for hiding and showing Donation and regular supporter parts in donate.html*/
 .appear{
   display: block;
