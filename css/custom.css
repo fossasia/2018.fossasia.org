@@ -201,6 +201,7 @@
   .all-speakers .speaker {
     max-width: 300px;
     margin: auto;
+	width: auto;
     text-align: center;
   }
   .speaker-column + .speaker-column {
@@ -218,6 +219,14 @@
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
+
+.all-speakers .speaker {
+    max-width: 300px;
+    margin: auto;
+    width: auto;
+    text-align: center;
+  }	
+
   nav .logo {
     top: -18px;
   }
