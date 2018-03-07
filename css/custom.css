@@ -38,7 +38,7 @@
   font-size: 20px;
   transition: opacity 0.2s linear;
   margin-bottom: 20px;
-  height: 250px;
+  height: auto;
 }
 
 .tweets-feed a {
