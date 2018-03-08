@@ -354,7 +354,6 @@ $(window).load(function() {
         };
 
 	$('.email-subscribe').submit(function(data) {
-        console.log(data,$('#hp').val());
         if($('#hp').val()!==""){
             return false;
         }
