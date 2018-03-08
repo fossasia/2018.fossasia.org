@@ -353,7 +353,11 @@ $(window).load(function() {
         return pattern.test(emailAddress);
         };
 
-	$('.email-subscribe').submit(function() {
+	$('.email-subscribe').submit(function(data) {
+        console.log(data,$('#hp').val());
+        if($('#hp').val()!==""){
+            return false;
+        }
         if ($.trim($("#email").val()) === "") {
         alert('Please enter your email address in the form');
         return false; }
