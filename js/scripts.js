@@ -355,10 +355,11 @@ $(window).load(function() {
 
 	$('.email-subscribe').submit(function() {
         if ($.trim($("#email").val()) === "") {
-        alert('Please enter your email address in the form');
-        return false; }
+            alert('Please enter your email address in the form');
+            return false; 
+        }
         else if ( !isValidEmailAddress( $.trim($("#email").val())  ) ) {
-        alert("Not a valid email address");
-        return false;
-    }
+            alert("Not a valid email address");
+            return false;
+        }   
 });
