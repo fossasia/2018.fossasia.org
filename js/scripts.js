@@ -353,10 +353,7 @@ $(window).load(function() {
         return pattern.test(emailAddress);
         };
 
-	$('.email-subscribe').submit(function(data) {
-        if($('#hp').val()!==""){
-            return false;
-        }
+	$('.email-subscribe').submit(function() {
         if ($.trim($("#email").val()) === "") {
             alert('Please enter your email address in the form');
             return false; 
