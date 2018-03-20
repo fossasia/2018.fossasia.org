@@ -366,7 +366,7 @@ $(window).load(function() {
 
 /*********Back to Top Scripts*********/
 if ($('#back-to-top').length) {
-    var scrollTrigger = 100, // px
+    var scrollTrigger = 1800, // px
         backToTop = function () {
             var scrollTop = $(window).scrollTop();
             if (scrollTop > scrollTrigger) {
