@@ -1185,8 +1185,8 @@ nav .container {
   height: 60px;
   border-radius: 50%;
   color: #fff;
+   margin:12px;
   /*margin-right: 12px;*/
-  margin:12px;
   font-size: 24px;
   line-height: 60px;
 }
