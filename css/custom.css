@@ -229,7 +229,7 @@ a:focus, a:hover {
     margin: auto;
     width: auto;
     text-align: center;
-  }	
+  }
 
   nav .logo {
     top: -18px;
@@ -248,4 +248,9 @@ a:focus, a:hover {
 .btn-hollow-red:hover {
     color: #fff !important;
     background: #e12b00 !important;
+}
+
+
+.responsive_icons {
+  margin-top: 5px;
 }
