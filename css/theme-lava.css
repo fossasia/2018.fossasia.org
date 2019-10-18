@@ -463,7 +463,7 @@ nav .logo {
   max-height: 45px;
   max-width: 110px;
   position: absolute;
-  top: 0px;
+  top: 0px; 
   opacity: 1;
 }
 nav .text-right {
