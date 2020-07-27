@@ -1532,9 +1532,10 @@ nav .container {
 .schedule-title span {
   display: block;
   font-size: 16px;
+  
 }
 .schedule-title .title {
-  color: #333333;
+  color: #B82300;
 }
 .schedule-text {
   max-height: 0px;
